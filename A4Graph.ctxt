@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=filename
+comment0.target=int[][]\ getMatrix(java.lang.String)
+comment0.text=\r\n\ \ Builds\ a\ two-dimensional\ Array\ based\ upon\ the\ input\ file\ of\ a\ user.\r\n\ \ \r\n\ \ @param\ filename\ the\ name\ of\ the\ file\ to\ be\ converted\ to\ an\ Array.\r\n\ \ @return\ the\ two-dimensional\ Array\ created,\ null\ if\ none\ is\ made.\r\n
+comment1.params=adjacencyMatrix\ startNode\ endNode
+comment1.target=java.lang.String\ getPath(int[][],\ int,\ int)
+comment1.text=\r\n\ User\ facing\ method\ to\ check\ an\ already\ existing\ two-dimensional\ Array\ for\r\n\ valid\ paths\ through\ the\ weighted\ directional\ graph.\r\n\ \r\n\ @param\ adjacencyMatrix\ the\ 2D\ Array\ to\ be\ checked.\r\n\ @param\ startNode\ the\ starting\ point.\r\n\ @param\ endNode\ the\ ending\ point.\r\n\ \r\n\ @return\ the\ String\ representing\ the\ path\ through\ the\ Array.\r\n
+comment2.params=pathMatrix\ visited\ start\ end
+comment2.target=java.lang.String\ pathFinder(int[][],\ java.lang.String,\ int,\ int)
+comment2.text=\r\n\ Recursive\ method\ used\ to\ trace\ potential\ paths\ through\ the\ Array.\r\n\ \r\n\ @param\ pathMatrix\ the\ 2D\ Array\ to\ be\ checked.\r\n\ @param\ visited\ a\ String\ which\ tracks\ which\ nodes\ have\ already\ been\ checked.\r\n\ @param\ start\ the\ starting\ point.\r\n\ @param\ end\ the\ ending\ point.\r\n\ \r\n\ @return\ the\ String\ represeting\ the\ path\ through\ the\ Array.\r\n\ @throws\ IllegalArgumentException\ if\ the\ Array\ is\ null\ or\ either\ start\ or\ end\ \r\n\ \ are\ negative,\ or\ if\ an\ array\ value\ is\ negative.\r\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\r\n\ Main\ method,\ used\ for\ testing.\r\n\ \r\n\ @param\ args\ not\ used.\r\n
+numComments=4
